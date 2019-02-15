@@ -1,0 +1,14 @@
+SENG 513 - ASSIGNMENT 2 - B02
+AMAIR JAVAID - ajavaid@ucalgary.ca - 10125771
+
+URL: amairjd.github.io/calc
+
+Tested on: Google Chrome, Firefox.
+
+Description:
+Works as any other calculator with the following exceptions:
+
+- If a user enters an operator that is not '-' followed by '-' and then any other operator that is not '-', there will be multiple operators side by side in the display.
+- On occasion, an odd error occurs that inputs all the button text values. 
+- mobile display is not optimized for high resolution screens.
+
