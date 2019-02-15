@@ -87,15 +87,17 @@ body {
   }
   .hintDisp {
     height: 10%;
+    font-size: 2em;
   }
   .disp {
     height: 20%;
+    font-size: 2.5em;
   }
   .keys {
     height: 70%;
   }
   .keys button {
-    font-size: 3em;
+    font-size: 2em;
   }
 }
 
