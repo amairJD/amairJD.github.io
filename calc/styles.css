@@ -1,0 +1,86 @@
+body {
+  width: 100%;
+  margin: auto;
+  background-color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    width: 600px;
+    margin: auto;
+  }
+}
+
+.calc {
+  background-color: #3b5150;
+}
+
+.disp {
+  background-color: #5f8483;
+  text-align: right;
+  font-size: 2em;
+  color: white;
+  font-family: "Arial", Helvetica, sans-serif;
+  padding: 5px;
+  padding-right: 10px;
+}
+
+.histDisp {
+  font-size: 1em;
+  height: 1.2em;
+  background-color: #5f8483;
+  color: white;
+  text-align: right;
+  padding: 6px;
+  font-family: "Arial", Helvetica, sans-serif;
+}
+
+
+.keys {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 10px;
+}
+
+.keys button {
+  height: 70px;
+  width: 100%;
+  background-color: #435b5a;
+  color: white;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-size: 1.3em;
+  border: none;
+}
+
+.keys button:hover {
+  background-color: #2c3d3c;
+}
+
+.keys button:active {
+  background-color: #517f7d;
+}
+
+.keys button.delButt{
+  background-color: #ce580e;
+}
+
+.keys button.delButt:hover{
+  background-color: #ff5400;
+}
+
+.keys button.clrButt{
+  background-color: #ce580e;
+}
+
+.keys button.clrButt:hover{
+  background-color: #ff5400;
+}
+
+.keys button.opButt{
+  background-color: #53706e;
+}
+
+.keys button.opButt:hover{
+  background-color: #2c3d3c;
+}
